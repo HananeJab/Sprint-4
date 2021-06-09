@@ -37,6 +37,7 @@
 - Les objets Request et Response
 - Vues
 - Gestion de la couche HTTP (routing, sécurité, session…)	
+- Migrations
 ## Gestion des templates et des formulaires avec Blade :
 - Section de contenu et héritage
 - Échappement et XSS

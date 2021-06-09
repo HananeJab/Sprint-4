@@ -4,13 +4,14 @@ Le but de brief projet est de réaliser une application web E-Commerce (vous ave
 - Dans cette application web vous devez faire une conception UML (Diagramme de classe - séquence - Use case) 
 - créer et visualiser les produits, les catégories, les curseurs (CRUD)
 - Authentification via réseaux sociaux ou par courriel 
--
-- sélectionner un produit par catégorie
+- Sélectionner un produit par catégorie
 - Créer un panier
 - Ajouter l' API stripe pour de paiement avec cartes crédits
 - Envoi d'e-mail après l'achat
 - Augmenter ou réduire la quantité d'un produit du panier (Optionnel)
 - Exporter les commandes de clients de Laravel vers PDF (Facture) (Optionnel)
+- Ajouter l' API PayPal pour le paiement (Optionnel)
+- Pour que les clients peuvent discuter avec le vendeur ou l'admin vous pouvez utiliser  API Telegram ou API Whatsapp en relions l'application contact à un groupe ou conversation.(Optionnel)
 
 
 ## les objectifs de ce brief:
