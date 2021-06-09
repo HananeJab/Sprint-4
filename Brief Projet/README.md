@@ -26,5 +26,5 @@ Le but de brief projet est de réaliser une application web E-Commerce (vous ave
 ## Modalité de travail :
 Travail individuel 
 
-## N.B : Any design is welcome :D ou vous pouvez se baser sur la [template]().
+## N.B : Any design is welcome :D ou vous pouvez se baser sur la [template](https://github.com/HananeJab/Sprint-4/tree/main/Brief%20Projet/Ecommerce%20template).
 ## Best of luck and jokes team
