@@ -1,0 +1,50 @@
+# Forum online
+
+Dans ce brief, vous devez construire un forum. Le forum a des catégories et chaque catégorie a des forums. 
+Chaque forum comporte des discussions ou des sujets. 
+Les utilisateurs non authentifiés peuvent voir les catégories et les forums, mais ils doivent se connecter pour pouvoir lancer une discussion dans un forum. 
+Chaque discussion a des réponses. 
+Les boutons "J'aime" et "J'aime pas" s'affichent sur les réponses si l'utilisateur connecté n'est pas l'auteur de la réponse. 
+Le nombre de mentions "j'aime" et "j'aime pas" affecte le rang de l'utilisateur.  
+Les "j'aime" augmentent le rang de l'utilisateur tandis que les "j'aime pas" le réduisent. 
+Lorsque l'utilisateur est connecté, il est redirigé vers la page de profil où il peut mettre à jour les informations de son profil.
+Le forum affiche tous les utilisateurs connectés ainsi que la page de tous les membres du forum.
+
+## Admin :
+
+L'administrateur a le contrôle total du forum. Il dispose de permissions CRUD (CREATE, READ, UPDATE et DELETE) sur les catégories, les forums, les discussions, les utilisateurs et les réponses.
+
+L'administrateur a accès aux profils des utilisateurs et peut les mettre à jour.
+
+## Notifications : 
+
+Les utilisateurs sont notifiés lorsque quelqu'un répond à la discussion qu'ils ont lancée ou lorsque quelqu'un aime la réponse. 
+L'administrateur est notifié lorsqu'un nouvel utilisateur rejoint le forum.
+
+## API Telegram ou autre API gratuite de votre choix : 
+
+Vous devez lier l'application à un groupe Telegram ou autre afin que des notifications soient envoyées au groupe par le robot Telegram lors de l'enregistrement d'un nouvel utilisateur, de la nouvelle discussion lancée et d'une nouvelle réponse à la discussion.
+
+## Recherche de catégories :
+
+Sur la page d'accueil du forum, vous avez un formulaire de recherche où les utilisateurs peuvent rechercher des mots clés spécifiques, et ensuite ils seront affichés les catégories avec ces mots clés si elles existent.
+
+## Contrôle d'accès :
+Vous mettez en place un contrôle d'accès où les utilisateurs normaux ne peuvent pas accéder au panneau d'administration, qu'ils connaissent ou non l'URL du panneau d'administration.  
+Pour cela, Vous utilisez un middleware d'administration pour rediriger les utilisateurs non-administrateurs vers leur page de profil si jamais ils obtiennent la route d'administration et essaient d'y accéder.
+
+Les utilisateurs ne peuvent pas non plus modifier les profils d'autres utilisateurs.
+
+## les objectifs de ce brief:
+
+Installation laravel et création du projet et le paramétrer.
+Découverte de :  Structure d'application Laravel, Laravel MVC, Laravel Controllers, Laravel Models, Laravel Mailable, 
+Laravel Migrations, Laravel views, Laravel Observers, Laravel commands, Laravel Notificatifiable, Laravel Routes, 
+Laravel Named Routes, Laravel Eloquent, Laravel Database, Laravel blade template.
+Découverte API sous laravel
+
+## Modalité de travail :
+Travail individuel
+
+## N.B : Any design is welcome :D 
+## Best of luck team
