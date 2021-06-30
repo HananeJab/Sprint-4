@@ -21,7 +21,7 @@ L'administrateur a accès aux profils des utilisateurs et peut les mettre à jou
 Les utilisateurs sont notifiés lorsque quelqu'un répond à la discussion qu'ils ont lancée ou lorsque quelqu'un aime la réponse. 
 L'administrateur est notifié lorsqu'un nouvel utilisateur rejoint le forum.
 
-## API Telegram ou autre API gratuite de votre choix : 
+## API Telegram ou autre API gratuite de votre choix (Optionnel): 
 
 Vous devez lier l'application à un groupe Telegram ou autre afin que des notifications soient envoyées au groupe par le robot Telegram lors de l'enregistrement d'un nouvel utilisateur, de la nouvelle discussion lancée et d'une nouvelle réponse à la discussion.
 
